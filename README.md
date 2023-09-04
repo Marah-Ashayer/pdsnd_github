@@ -4,7 +4,7 @@
 Septemper 4,2023
 
 ### Project Title
-Post your Work on GitHub
+**Post your Work on GitHub**
 
 ### Description
 Simulating a realistic workflow to refactor BikeShare project using Git.
