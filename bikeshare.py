@@ -1,7 +1,8 @@
+# import neede pakages
 import time
 import pandas as pd
 import numpy as np
-
+#data files we will use
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -199,10 +200,12 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         view_data(df)
+        print("Game Over")
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
+    
 
 
 if __name__ == "__main__":
